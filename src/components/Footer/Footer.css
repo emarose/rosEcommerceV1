@@ -1,0 +1,30 @@
+.containerFooter{
+  min-height: 5vh;
+  border-top: 1px solid var(--main-bg);
+  background-color: var(--main-bg);
+
+}
+.rowFooter{
+  box-shadow: none;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.colFooter{
+  text-align: center;
+}
+
+.ulFooter{
+  display: flex;
+  margin: 0 10px;
+}
+
+.ulFooter li{
+  
+  margin: 0 20px;
+}
+
+.colFooter p{
+margin-top: 20px;
+}

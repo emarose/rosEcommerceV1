@@ -1,0 +1,12 @@
+.navItem{
+  color: #fff !important;
+}
+
+.toggle{
+  color:#fff !important;
+}
+
+.navbar-toggler{
+ background-color: white;
+ outline: solid 3px var(--main-bg);;
+}

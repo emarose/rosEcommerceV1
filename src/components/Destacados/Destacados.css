@@ -1,0 +1,27 @@
+#destacados{
+  overflow:hidden;
+}
+.RowCards{
+  box-shadow: none;
+  background-color: transparent !important;
+  max-width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardGroup{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.card-item{
+  margin: 100px;
+  padding: 100px
+}
+
+.titulo{
+  text-align: center;
+  margin: 20px 0;
+}

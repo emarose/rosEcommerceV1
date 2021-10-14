@@ -1,0 +1,28 @@
+.rowIconos{
+  width:100%;
+  box-shadow: 0 0 1px 2px var(--hover);
+  text-align: center;
+  
+}
+.colIconos{
+  margin: 0 50px;
+  width: 300px;
+}
+
+.colIconos p{
+  margin:0 auto;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
+
+.colIconos h1{
+  max-width: ch;
+  line-height: 1;
+  font-size: 1.4em;
+  margin: 15px auto;
+}
+.imgIcono{
+  width: 100px;
+  border: 1px solid var(--main-bg);
+  box-shadow: 0 0 5px 2px var(--hover);
+}

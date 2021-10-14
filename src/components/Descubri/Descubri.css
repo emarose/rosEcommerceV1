@@ -1,0 +1,62 @@
+.containerDescubri{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  
+}
+.imgDescubri{
+  max-width: 20rem;
+  object-fit: contain;
+  height:200px;
+}
+#cardDescubriLeft{
+  display: flex;
+  flex-direction: row;
+  min-width:40rem;
+  margin-right:30px;
+  padding:20px;
+}
+
+#cardDescubriRight{
+  display: flex;
+  flex-direction: row;
+  min-width:40rem;
+  margin-right:30px;
+  padding:20px;
+}
+
+.descubriTitulo{
+  font-size: 17px;
+}
+.descubriText{
+  max-width: fit-content;
+  font-size: clamp(1rem,5vw,2rem);
+  font-weight: 600;
+}
+
+@media (max-width:1000px){
+  .containerDescubri{
+    flex-direction: column;
+    gap:20px;
+    
+  }
+  .imgDescubri{
+    max-width: 15rem;
+  }
+  #cardDescubriLeft{
+   width:100vw;
+  }
+  
+  #cardDescubriRight{
+    width:100vw;
+  }
+  
+  .descubriTitulo{
+ 
+  }
+  .descubriText{
+  
+  }
+  
+}

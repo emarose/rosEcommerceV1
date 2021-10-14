@@ -1,0 +1,8 @@
+.CardPriceDiscount{
+  color:var(--green);
+}
+
+.CardPrice{
+  color:var(--red);
+  text-decoration: line-through;
+}

@@ -1,0 +1,15 @@
+#ofertas{
+
+}
+
+.ofertas h1{
+  text-align: center;
+  margin: 60px 0;
+  text-decoration: underline rgba(0,0,0,0.2);
+}
+
+.vermas{
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px auto 60px;
+}
