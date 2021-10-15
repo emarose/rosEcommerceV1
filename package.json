@@ -1,17 +1,11 @@
 {
   "name": "t2",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage":"https://emarose.github.io/rosEcommercev1",
-=======
   "engines": {
     "node": "14.x"
   },
->>>>>>> a2e0096e2bc7b63b06f04e3bcb88e068f565598d
   "private": true,
-  "engines": {
-    "node": "14.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -30,13 +24,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-<<<<<<< HEAD
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
-=======
-    "start": "node server.js",
->>>>>>> a2e0096e2bc7b63b06f04e3bcb88e068f565598d
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
